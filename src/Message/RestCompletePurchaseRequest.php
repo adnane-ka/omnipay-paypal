@@ -29,7 +29,7 @@ namespace Omnipay\PayPal\Message;
  *
  *   // Once the transaction has been approved, we need to complete it.
  *   $transaction = $gateway->completePurchase(array(
- *       'payer_id'             => $payerId,
+ *       'payerId'             => $payerId,
  *       'transactionReference' => $paymentId,
  *   ));
  *   $response = $transaction->send();
